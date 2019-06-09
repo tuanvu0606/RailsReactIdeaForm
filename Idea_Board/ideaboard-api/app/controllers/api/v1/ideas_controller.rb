@@ -1,5 +1,5 @@
 module Api::V1
-  class IdeasController < ApplicationController
+  class IdeasController < ApiController
     def index
       @ideas = Idea.order("created_at DESC")
       render json: @ideas

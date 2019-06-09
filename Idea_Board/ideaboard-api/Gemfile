@@ -5,7 +5,22 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'activeadmin'
+# require "sprockets/railtie"
+gem 'json'
 
+# Plus integrations with:
+gem 'minitest', '~>5.1'
+gem 'builder', '~>3.1'
+gem 'rake', '>= 0.8.7'
+gem 'thor', '>= 0.18.1'
+gem 'method_source', '>= 0'
+
+gem 'pry'
+gem 'devise'
+gem 'cancancan'
+gem 'draper'
+gem 'pundit'
 gem 'rack-cors', :require => 'rack/cors'
 gem 'carrierwave'
 gem 'mini_magick'
@@ -16,7 +31,7 @@ gem 'sqlite3'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-# gem 'jbuilder', '~> 2.5'
+gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
 # Use ActiveModel has_secure_password

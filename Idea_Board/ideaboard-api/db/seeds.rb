@@ -55,3 +55,5 @@ articles = Article.create(
           image: "https://s3-ap-southeast-1.amazonaws.com/banners.yoose.com/Thailand_AIS/300_250.gif"
         }
       ])
+      
+AdminUser.create!(email: 'admin@example.com', password: 'password', password_confirmation: 'password') if Rails.env.development?
