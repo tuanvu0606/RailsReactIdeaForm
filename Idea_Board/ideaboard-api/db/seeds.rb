@@ -30,28 +30,44 @@ articles = Article.create(
           name: "Article_1",
           header: "Article_1 Made of chocolate",
           sub_header: "Article_1 Made of chocolate",
-          content: "Article_1 good is good, Made of chocolate",
+          content: "# This is a header\n\nAnd this is a paragraph",
           image: "https://s3-ap-southeast-1.amazonaws.com/banners.yoose.com/Thailand_AIS/300_250.gif"          
         },
         {
           name: "Article_2",
           header: "Article_2 Made of chocolate",
           sub_header: "Article_2 Made of chocolate",
-          content: "Article_2 good is good, Made of chocolate",
+          content: "# This is a header\n\nAnd this is a paragraph",
           image: "https://s3-ap-southeast-1.amazonaws.com/banners.yoose.com/Thailand_AIS/300_250.gif"
         },
         {
           name: "Article_3",
           header: "Article_3 Made of chocolate",
           sub_header: "Article_3 Made of chocolate",
-          content: "Article_3 good is good, Made of chocolate",
+          content: "# This is a header\n\nAnd this is a paragraph",
           image: "https://s3-ap-southeast-1.amazonaws.com/banners.yoose.com/Thailand_AIS/300_250.gif"
         },
         {
           name: "Article_3",
           header: "Article_3 Made of chocolate",
           sub_header: "Article_3 Made of chocolate",
-          content: "Article_3 good is good, Made of chocolate",
+          content: "# This is Markdown
+
+          #### You can edit me!
+          
+          [Markdown](http://daringfireball.net/projects/markdown/) lets you write content in a really natural way.
+          
+            * You can have lists, like this one
+            * Make things **bold** or *italic*
+            * Embed snippets of `code`
+            * Create [links](/)
+            * ...
+          
+          <small>Sample content borrowed with thanks from [elm-markdown](http://elm-lang.org/examples/markdown) ❤️</small>
+          
+          You can even include custom React components if you declare them in the overrides option.
+          
+          <MyComponent>Isn't that cool?</MyComponent>",
           image: "https://s3-ap-southeast-1.amazonaws.com/banners.yoose.com/Thailand_AIS/300_250.gif"
         }
       ])

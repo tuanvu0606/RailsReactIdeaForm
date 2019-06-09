@@ -5,9 +5,11 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+gem 'shrine'
 gem 'activeadmin'
 # require "sprockets/railtie"
 gem 'json'
+gem 'trix'
 
 # Plus integrations with:
 gem 'minitest', '~>5.1'

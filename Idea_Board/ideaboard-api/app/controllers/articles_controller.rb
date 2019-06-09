@@ -1,6 +1,4 @@
-module Api::V1
-
-  class ArticlesController < ApiController
+class ArticlesController < ApiController
     before_action :set_article, only: [:show, :update, :destroy]
 
     # GET /articles
@@ -50,4 +48,3 @@ module Api::V1
         params.require(:article).permit(:name, :header, :sub_header, :content, :image)
       end
   end
-end
